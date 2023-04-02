@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Detail</title>
+    <style>
+        /* Layout */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0 20px;
+        }
+        .left {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .right {
+            width: 200px;
+        }
+        /* Duration */
+        .duration {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .duration-icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        /* Technologies */
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .technology-icon {
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        /* Content */
+        .content {
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="/Assets/cz.jpeg" alt="Blog Image">
+        <div class="duration">
+            <span class="duration-icon">&#128197;</span>
+        </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum nibh id felis venenatis, at dapibus quam consequat. Vestibulum id elit non elit luctus tincidunt. Integer aliquam risus et risus tincidunt euismod. Aenean vitae magna ut erat volutpat hendrerit nec nec risus. Vestibulum sodales tincidunt risus ut malesuada.</p>
+        <p>Vivamus id mi non metus ullamcorper hendrerit. Duis eget ligula euismod, vestibulum elit a, finibus metus. Cras convallis, odio ac ultricies rhoncus, nibh justo lobortis purus, sit amet imperdiet mauris velit a ipsum. Sed eget velit ut nisl ullamcorper blandit ut a tellus. Nullam lobortis vestibulum purus in consequat.</p>
+    </div>
+    </div>
+    <div class="right">
+        <h2>Blog Detail</h2>
+        <div class="duration">
+            <span class="duration-icon">&#128197;</span>
+            <span>April 1, 2023 - April 30, 2023</span>
+        </div>
+        <div class="technologies">
+            <span class="technology-icon">&#127891;</span>
+            <span class="technology-icon">&#127868;</span>
+            <span class="technology-icon">&#128187;</span>
+            <span class="technology-icon">&#128311;</span>
+        </div>
+    </div>
+</body>
+</html>

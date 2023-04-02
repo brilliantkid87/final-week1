@@ -1,0 +1,173 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+  background-color: #e3e7eb;
+}
+
+/* NAVBAR */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	background-color: blanchedalmond;
+}
+
+.navbar-left {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.navbar-left img {
+	height: 50px;
+	margin-right: 20px;
+	transition: all 0.3 ease;
+}
+
+.navbar-left a {
+	list-style-type: none;
+	margin-right: 20px;
+	transition: all 0.3 ease;
+	color: #333;
+	font-weight: bold;
+}
+
+.navbar-right {
+	margin-right: 20px;
+}
+
+.navbar-right a {
+	background-color: black;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	transition: all 0.3 ease;
+}
+
+/* Blog */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.upload-image input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Card */
+
+#card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  background-color: white;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.8rem;
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+
+.button {
+  display: inline-block;
+  background-color: #0099ff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}

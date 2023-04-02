@@ -1,0 +1,74 @@
+.blog-section {
+    background-color: #d9d9d9a2;
+    padding: 120px 20px 80px 20px;
+}
+  
+.blog-section .blog {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.blog-section .blog h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+  
+.blog-section .blog .top-content {
+    display: flex;
+}
+  
+.blog-section .blog .top-content .img {
+    width: 75%;
+}
+  
+.blog-section .blog .top-content .img img {
+    width: 100%;
+}
+  
+.blog-section .blog .top-content .detail {
+    margin-left: 30px;
+}
+  
+.blog-section .blog .top-content .detail h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+  
+.blog-section .blog .top-content .detail p {
+    margin: 15px 0;
+}
+  
+.blog-section .blog .top-content .detail i {
+    font-size: 20px;
+}
+  
+.blog-section .blog .top-content .technologies {
+    margin-top: 30px;
+}
+  
+.blog-section .blog .top-content .technologies h5 {
+    font-size: 18px;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line {
+    display: flex;
+    margin-bottom: 10px;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line .tech {
+    width: 50%;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line .tech i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  
+.blog-section .blog .bottom-content {
+    margin-top: 30px;
+}
+  
+.blog-section .blog .bottom-content p {
+    text-align: justify;
+}

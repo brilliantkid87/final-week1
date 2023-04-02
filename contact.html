@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar-left">
+                <a href="/index.html">
+                    <img src="/Assets/Binance_Logo.png" alt="logo">
+                </a>
+                <a href="/index.html">Home</a>
+                <a href="/blog.html">My Project</a>
+            </div>
+            <div class="navbar-right">
+                <a href="/contact.html">Contact Me</a>
+            </div>
+        </nav>       
+    </header>
+
+    <form id="contact-form">
+        
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone">
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="" disabled selected>--Select Subject--</option>
+                <option value="fullstack">Fullstack</option>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <button onclick="getData()" type="button">Submit</button>
+    </form>
+
+    <script src="/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar-left">
+                <a href="/index.html">
+                    <img src="/Assets/Binance_Logo.png" alt="logo">
+                </a>
+                <a href="/index.html">Home</a>
+                <a href="/blog.html">My Project</a>
+            </div>
+            <div class="navbar-right">
+                <a href="/contact.html">Contact Me</a>
+            </div>
+        </nav>       
+    </header>
+	
+	<h1>Form Contoh</h1>
+    <form id="my-form">
+        <label style="font-weight: bold;" for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label style="font-weight: bold; display: block;" for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date" required>
+    
+        <label style="font-weight: bold; display: block;" for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date" required>
+    
+        <label style="font-weight: bold;" for="description">Description:</label>
+        <textarea id="description" name="description" rows="5" required></textarea>
+
+        <label style="font-weight: bold;" for="technologies" id="checkbox-group">Technologies:</label><br>
+        <div class="checkbox-group">
+            <label for="nodejs">
+                <input type="checkbox" id="nodejs" name="nodejs" value="Node.js">
+                Node.js
+            </label>
+            <label for="reactjs">
+                <input type="checkbox" id="reactjs" name="reactjs" value="React.js">
+                React.js
+            </label>
+            <label for="angular">
+                <input type="checkbox" id="angular" name="angular" value="Angular">
+                Angular
+            </label>
+            <label for="vultr">
+                <input type="checkbox" id="vultr" name="vultr" value="Vultr">
+                Vultr
+            </label>
+        </div>
+
+		<div class="upload-image">
+			<label style="font-weight: bold;" for="image">Upload Image:</label>
+			<input type="file" id="image" name="image" accept="image/*">
+		</div>
+
+		<div class="btn">
+			<button>Submit</button>
+		</div>
+    </form>
+
+	<div id="card-list"></div>
+	  
+
+	<script src="/script.js"></script>
+</body>
+</html>
+<butto></button>
